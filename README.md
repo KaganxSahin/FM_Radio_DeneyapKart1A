@@ -5,3 +5,6 @@ Bu projede, Deneyap Kart 1A kullanılarak TEA5767 FM radyo modülü, Deneyap OLE
 English
 
 In this project, a dynamic frequency adjustment system was developed using the Deneyap Kart 1A, the TEA5767 FM radio module, the Deneyap OLED display, and a potentiometer. The value read from the potentiometer via the analogRead() function, ranging from 0 to 1023, is scaled to the FM broadcast band between 87.5 MHz and 108.0 MHz using the map() function. If the newly calculated frequency value differs by at least 0.1 MHz from the last set frequency, the FM radio module is updated using the radio.setFrequency() function, the OLED screen is cleared, and the new frequency information is displayed on the screen and simultaneously transmitted to the serial monitor. The system communicates with both the OLED display and the TEA5767 module via the I2C protocol, and by continuously reading the potentiometer, real-time frequency changes based on user input are enabled. Wired headphone or external speaker connections are supported for audio output.
+
+
+![radioDevre](https://github.com/user-attachments/assets/db5168c6-13e5-4bce-a84f-c3060717dd1e)
