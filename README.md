@@ -8,3 +8,5 @@ In this project, a dynamic frequency adjustment system was developed using the D
 
 
 ![radioDevre](https://github.com/user-attachments/assets/db5168c6-13e5-4bce-a84f-c3060717dd1e)
+
+![IMG_9421](https://github.com/user-attachments/assets/65c5f8ef-8747-4ef2-af31-d81e388ef28b)
